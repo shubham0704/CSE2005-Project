@@ -1,0 +1,22 @@
+
+Note:
+The officer cannot signup because then anybody can play Officer. Therefore no signup module.
+Credentials can be entered in excel sheet- DB will retrieve,store and then validate data upon login.
+There is login module which you can find functional after you execute the following steps:
+
+1.The credentials that are given to you for testing are:username:1234,password:master
+You can set some more but for that you need to:
+(a) create tables in your local DB:
+RUN:
+->CREATE TABLE Officer (Officer_id NUMBER(12) NOT NULL PRIMARY KEY,
+ Name VARCHAR(20) NOT NULL ,Phone_number NUMBER(10) NOT NULL ,Gender VARCHAR(1) NOT NULL ,
+ DOB DATE NOT NULL ,Rank NUMBER(2) NOT NULL );
+->CREATE TABLE users (Officer_id NUMBER(12) NOT NULL UNIQUE ,password VARCHAR(15) NOT NULL,
+  CONSTRAINT fk_column FOREIGN KEY (Officer_id) REFERENCES Officer(Officer_id));
+and then run the queries in DB:
+	1.INSERT INTO Officer VALUES (1234,'Shubham Bhardwaj',9790625528,'M','27-jan-1997',1);
+	2.INSERT  INTO users VALUES (1234,'master');
+2.start server by going into the directory
+open cmd there and type in python server.py
+3.to use the web app:
+Go to google navbar type in localhost:5000/

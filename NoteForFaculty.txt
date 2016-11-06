@@ -1,3 +1,13 @@
+Reg NO:15BCE0704
+Name:Shubham Bhardwaj
+Project Name:Criminal Database Management System
+Team Members:
+1.Shubham Bhardwaj -15BCE0704
+2.Karthik Sharma   -15BCE0729 
+3.Dheeraj Nair     -15BCE2083
+4.Faheem Ali       -15BCE0740
+5.Vaibhav Mathur   -15BCE0771
+
 
 Note:
 The officer cannot signup because then anybody can play Officer. Therefore no signup module.

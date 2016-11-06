@@ -1,9 +1,6 @@
 '''
 A combination of tags and query will determine the nature of filter to be applied
 This further enhancement will be made in the form of callable functions
-Dear Students, Log in to Schoology and register yourself for the course "D1 Slot-CSE2004 Database Management Systems 2016: Morning Slot" using the access code X947K-6F2CH .
-Upload the code using the Review II Document Upload Assignment Link. Every student should independently upload the code.
-Mention your registration number,name, project name and team members name and registration number in the document that is uploaded. Regards Satish
 '''
 
 
